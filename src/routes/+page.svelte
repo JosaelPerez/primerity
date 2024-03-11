@@ -45,8 +45,8 @@
 
 		<main>
 			<!-- Hero section -->
-			<section class="flex flex-col justify-center items-center mx-80 mt-32">
-				<h1 class="text-6xl text-center font-bold text-slate-700">
+			<section class="flex flex-col justify-center items-center mt-32">
+				<h1 class="text-6xl text-center font-bold text-slate-800">
 					Building Modern Websites<br />that Empower
 					<span class="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
 						>Business Growth</span
@@ -71,8 +71,71 @@
 					</div>
 				</div>
 			</section>
+
+			<!-- Pricing section -->
+			<section class="mt-16">
+				<div class="flex flex-col items-center justify-start">
+					<h2 class="text-4xl font-bold text-slate-800">
+						Flexible prices that make everyone <span
+							class="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
+							>feel welcome!
+						</span>
+					</h2>
+					<p class="text-xl text-slate-500 mt-4">
+						Just choose the option that makes the most sense for you and your business
+					</p>
+
+					<div class="flex mt-12">
+						<ul class="border rounded-lg border-slate-200 p-4 mx-12 min-w-80">
+							<li class="text-xl">Development</li>
+							<li class="text-md text-slate-500">up to 5 sections</li>
+							<li class="text-4xl font-bold text-slate-900 mb-8">$300/page</li>
+							<div class="flex flex-col gap-2">
+								<li class="text-base text-slate-800">
+									<img src="check.svg" alt="check" class="inline w-4 mr-2" />One request / page at a
+									time
+								</li>
+								<li class="text-md text-slate-800">
+									<img src="check.svg" alt="check" class="inline w-4 mr-2" />Unlimited revisions
+								</li>
+								<li class="text-md text-slate-800">
+									<img src="check.svg" alt="check" class="inline w-4 mr-2" />CMS integration
+								</li>
+								<li class="text-md text-slate-800">
+									<img src="check.svg" alt="check" class="inline w-4 mr-2" />3-4 days turnaround
+									time
+								</li>
+							</div>
+							<button
+								class="p-[1px] bg-gradient-to-r from-blue-600 to-purple-600 text-transparent rounded-md w-full mt-24"
+							>
+								<div class="bg-white h-full w-full rounded-md flex justify-center items-center">
+									<span
+										class="flex bg-gradient-to-r from-blue-600 to-purple-600 text-transparent bg-clip-text w-full rounded p-2 bg-white items-center justify-center font-bold"
+										>Buy Now</span
+									>
+								</div>
+							</button>
+						</ul>
+						<ul>
+							<li>Design + Development</li>
+							<li>up to 5 sections*</li>
+							<li>$500/page</li>
+							<li>up to 5 sections*</li>
+							<li>One request / page at a time</li>
+							<li>Unlimited revisions</li>
+							<li>CMS integration</li>
+							<li>7-10 days turnaround time</li>
+						</ul>
+						<ul>
+							<li>SEO</li>
+							<li>Coming soon...</li>
+						</ul>
+					</div>
+				</div>
+			</section>
 		</main>
 
-		<footer></footer>
+		<footer class="bg-slate-900 h-64"></footer>
 	</body>
 </html>
