@@ -3,11 +3,15 @@
 	import HeroSection from '$lib/components/hero-section.svelte';
 	import PricingSection from '$lib/components/pricing-section.svelte';
 	import FAQSection from '$lib/components/faq-section.svelte';
+	import ServicesSection from '$lib/components/services-section.svelte';
+	import Footer from '$lib/components/footer.svelte';
 </script>
 
 <Header />
-<main>
+<main class="mx-80">
 	<HeroSection />
+	<ServicesSection />
 	<PricingSection />
 	<FAQSection />
 </main>
+<Footer />

@@ -3,7 +3,7 @@
 </script>
 
 <!-- Hero section -->
-<section class="flex flex-col justify-center items-center mt-32">
+<section class="flex flex-col justify-center items-center py-32">
 	<h1 class="text-6xl text-center font-bold text-slate-800">
 		Building Modern Websites<br />that Empower
 		<span class="primary-gradient clip-gradient">Business Growth</span>
@@ -16,7 +16,7 @@
 		class="text-xl rounded-full px-8 py-4 text-white bg-slate-900 shadow-lg shadow-slate-400 hover:opacity-90"
 		>Get In Touch</button
 	>
-	<div class="m-32">
+	<div class="mt-32">
 		<StackCarousel />
 	</div>
 </section>

@@ -5,23 +5,24 @@
 			id: 'item-1',
 			question: 'What is the turnaround time?',
 			answer:
-				'We usually deliver the first draft within 1 week. The final website is delivered within 2 weeks.'
+				'We deliver each page within 10 days, but this can be reduced down to 4 days if you already have the design.'
 		},
 		{
 			id: 'item-2',
 			question: 'How do you communicate?',
 			answer:
-				'We use email, Slack, WhatsApp and Signal to communicate. We strongly prefer slack and keep the conversations async so that we can focus on building your website.'
+				'We use Gmail, Slack and WhatsApp to communicate. We prefer Gmail and Whatsapp for the first interactions then moving to Slack to continue further with the communication. This way conversations keep async and we can focus on building your website.'
 		},
 		{
 			id: 'item-3',
 			question: 'What is the process of working with you?',
-			answer: "Yes. It's animated by default, but you can disable it if you prefer."
+			answer:
+				'You can reach out us via Gmail and Whatsapp telling us about your project, then we will add you to a Slack communication channel to continue research and development.'
 		},
 		{
 			id: 'item-4',
 			question: 'What happens if I do not like the design?',
-			answer: "Yes. It's animated by default, but you can disable it if you prefer."
+			answer: 'We provide unlimited revisions until you are happy with the design.'
 		},
 		{
 			id: 'item-5',
@@ -31,26 +32,27 @@
 		},
 		{
 			id: 'item-6',
-			question: 'What is your Tech Stack?',
-			answer: "Yes. It's animated by default, but you can disable it if you prefer."
+			question: 'What is your Stack?',
+			answer:
+				'We work mainly with SvelteKit and TailwindCSS to build every website. With this combination we can ensure smooth development and fast website performance.'
 		},
 		{
 			id: 'item-7',
 			question: 'Why no calls or meetings?',
 			answer:
-				"We are a small team and we want to focus on building your website. We have found that calls and meetings are a huge distraction and we want to avoid them as much as possible. We prefer async communication over calls and meetings. In the past, We've built huge softwares and SaaS applications without ever getting on a call. We are confident that we can build your website without getting on a call."
+				'Calls and meetings can consume time that could be focused on building your website where you get the most value. For this reason, we want to avoid them as much as possible. We prefer async communication over calls and meetings. We are confident that we can build your website without getting on a call.'
 		},
 		{
 			id: 'item-8',
 			question: 'What happens if I have to make some changes in the website after it is delivered?',
 			answer:
-				'We provide you with a video tutorial on how to make changes to your website. If you still need help, we can make changes for you at an hourly rate OR you can sign up for our retainer services. Contact us on the website chat for more details.'
+				'We provide support to guide you on making changes to your website when using a content management system (CMS). Is there is no CMS available on your website or the changes required further development, we can still make the changes for a fixed price set after a review.'
 		}
 	];
 </script>
 
 <!-- FAQs -->
-<section class="justify-center flex flex-col items-center mx-80">
+<section class="justify-center flex flex-col items-center py-16">
 	<h2 class="text-3xl font-bold text-slate-800">Frequenly asked questions</h2>
 	<p class="text-xl text-slate-500 mt-4">
 		Can’t find the answer you’re looking for? Reach out to us and we will get in touch with you
