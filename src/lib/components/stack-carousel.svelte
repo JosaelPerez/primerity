@@ -2,7 +2,7 @@
 	<img src="nodejs.svg" alt="NodeJS" width="100" />
 	<img src="svelte-wordmark.svg" alt="Svelte" width="170" />
 	<img src="tailwind.svg" alt="Tailwind" width="220" />
-	<img src="prisma.svg" alt="Prisma" width="140" />
+	<img src="payload.svg" alt="Payload" width="200" />
 	<img src="vercel.svg" alt="Vercel" width="150" />
 	<div class="flex items-center gap-4">
 		<img src="vitejs.svg" alt="ViteJS" width="50" />
