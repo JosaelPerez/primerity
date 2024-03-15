@@ -27,7 +27,7 @@
 
 <!-- Compact version -->
 <section
-	class="flex max-w-full flex-col items-center justify-start py-8 md:hidden"
+	class="flex max-w-full flex-col items-center justify-start md:hidden"
 	id="services-section"
 >
 	<h2 class="text-center text-2xl font-bold text-slate-800">
@@ -66,7 +66,7 @@
 
 <!-- Small version -->
 <section
-	class=" hidden max-w-full flex-col items-center justify-start py-8 sm:flex lg:hidden"
+	class=" hidden max-w-full flex-col items-center justify-start sm:flex lg:hidden"
 	id="services-section"
 >
 	<h2 class="text-center text-4xl font-bold text-slate-800">
@@ -105,7 +105,7 @@
 
 <!-- Large version -->
 <section
-	class="hidden max-w-full flex-col items-center justify-start pb-24 lg:flex 2xl:hidden"
+	class="hidden max-w-full flex-col items-center justify-start lg:flex 2xl:hidden"
 	id="services-section"
 >
 	<h2 class="text-center text-4xl font-bold text-slate-800">
@@ -144,13 +144,13 @@
 
 <!-- 2XL version -->
 <section
-	class=" hidden max-w-full flex-col items-center justify-start py-32 2xl:flex"
+	class=" hidden max-w-full flex-col items-center justify-start 2xl:flex"
 	id="services-section"
 >
-	<h2 class="text-center text-4xl font-bold text-slate-800">
+	<h2 class="text-center text-5xl font-bold text-slate-800">
 		Everything you need to deploy your website!
 	</h2>
-	<p class="mt-8 px-8 text-center text-2xl text-slate-500">
+	<p class="mt-4 px-8 text-center text-2xl text-slate-500">
 		We handle everything from design to deployment to get your website shipped and ready to go!
 	</p>
 

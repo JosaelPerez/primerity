@@ -3,7 +3,7 @@
 </script>
 
 <!-- Compact section -->
-<section class="flex flex-col items-center justify-center py-8 sm:hidden">
+<section class="flex flex-col items-center justify-center sm:hidden">
 	<div>
 		<h1 class="text-center text-2xl font-bold text-slate-800">
 			Building Modern<br />Websites that Empower<br />
@@ -24,7 +24,7 @@
 </section>
 
 <!-- Small section -->
-<section class="hidden flex-col items-center justify-center py-8 sm:flex lg:hidden">
+<section class="hidden flex-col items-center justify-center sm:flex lg:hidden">
 	<div>
 		<h1 class="text-center text-5xl font-bold text-slate-800">
 			Building Modern<br />Websites that Empower<br />
@@ -44,7 +44,7 @@
 </section>
 
 <!-- Large section -->
-<section class="hidden flex-col items-center justify-center py-24 lg:flex 2xl:hidden">
+<section class="hidden flex-col items-center justify-center lg:flex 2xl:hidden">
 	<div>
 		<h1 class="text-center text-6xl font-bold text-slate-800">
 			Building Modern<br />Websites that Empower<br />
@@ -64,7 +64,7 @@
 </section>
 
 <!-- 2XL section -->
-<section class="hidden flex-col items-center justify-center py-32 2xl:flex">
+<section class="hidden flex-col items-center justify-center 2xl:flex">
 	<div>
 		<h1 class="text-center text-6xl font-bold text-slate-800">
 			Building Modern Websites<br />that Empower
