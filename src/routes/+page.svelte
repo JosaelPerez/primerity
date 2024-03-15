@@ -8,10 +8,10 @@
 </script>
 
 <Header />
-<main class="mx-80">
+<main class="flex flex-col items-center justify-start">
 	<HeroSection />
-	<ServicesSection />
-	<PricingSection />
-	<FAQSection />
+	<!-- <ServicesSection /> -->
+	<!-- <PricingSection /> -->
+	<!-- <FAQSection /> -->
 </main>
-<Footer />
+<!-- <Footer /> -->

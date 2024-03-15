@@ -42,15 +42,15 @@
 </script>
 
 <!-- Pricing section -->
-<section id="pricing-section">
+<section id="pricing-section" class="max-w-full">
 	<div class="flex flex-col items-center justify-start py-16">
-		<h2 class="text-5xl font-bold text-slate-800">
+		<h2 class="text-2xl lg:text-5xl font-bold text-slate-800 text-center">
 			Flexible prices that make everyone <span
 				class="bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent"
 				>feel welcome!
 			</span>
 		</h2>
-		<p class="text-xl text-slate-500 mt-4">
+		<p class="text-xl text-slate-500 mt-4 text-center">
 			Just choose the option that makes the most sense for you and your business
 		</p>
 

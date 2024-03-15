@@ -25,9 +25,14 @@
 	];
 </script>
 
-<section class="flex flex-col justify-start items-center py-16" id="services-section">
-	<h2 class="text-5xl font-bold text-slate-800">Everything you need to deploy your website!</h2>
-	<p class="text-xl text-slate-500 mt-4">
+<section
+	class="flex flex-col justify-start items-center max-w-full py-4 lg:py-16"
+	id="services-section"
+>
+	<h2 class="text-3xl lg:text-5xl font-bold text-slate-800 text-center">
+		Everything you need to deploy your website!
+	</h2>
+	<p class="text-xl text-slate-500 mt-4 text-center">
 		We handle everything from design to deployment to get your website shipped and ready to go!
 	</p>
 
@@ -41,15 +46,15 @@
 				delay: 3500
 			})
 		]}
-		class="w-full mt-16"
+		class="w-full mt-4 lg:mt-16"
 	>
 		<Carousel.Content>
 			{#each services as service}
-				<Carousel.Item class="basis-1/3">
+				<Carousel.Item class="">
 					<div class="p-1">
-						<div class="border border-slate-200 rounded-lg shadow-md px-8 py-8 min-h-64">
-							<h3 class="text-xl">{service.title}</h3>
-							<p class="text-md mt-4">{service.description}</p>
+						<div class="border border-slate-200 rounded-lg shadow-md px-8 py-8 h-64 lg:min-h-64">
+							<h3 class="text-md font-bold text-slate-800 lg:text-xl">{service.title}</h3>
+							<p class="text-sm text-slate-800 lg:text-md mt-4">{service.description}</p>
 						</div>
 					</div>
 				</Carousel.Item>

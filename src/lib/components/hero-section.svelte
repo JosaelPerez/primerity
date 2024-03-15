@@ -2,18 +2,88 @@
 	import StackCarousel from './stack-carousel.svelte';
 </script>
 
-<!-- Hero section -->
-<section class="flex flex-col justify-center items-center py-32">
-	<h1 class="text-6xl text-center font-bold text-slate-800">
-		Building Modern Websites<br />that Empower
-		<span class="primary-gradient clip-gradient">Business Growth</span>
-	</h1>
-	<p class="text-2xl text-center m-12 text-slate-500">
+<!-- Mobile section -->
+<section class="flex flex-col items-center justify-center sm:hidden">
+	<div>
+		<h1 class="pt-8 text-center text-2xl font-bold text-slate-800">
+			Building Modern<br />Websites that Empower<br />
+			<span class="primary-gradient clip-gradient">Business Growth</span>
+		</h1>
+	</div>
+
+	<p class="mt-4 text-center text-base text-slate-500">
+		We build websites you and your<br /> business deserve.<br />No calls. No meetings.
+		<span class="font-bold">Just Results.</span>
+	</p>
+
+	<button
+		class="mt-4 rounded-full bg-slate-900 px-4 py-2 text-sm text-white shadow-lg shadow-slate-400 hover:opacity-90"
+		>Get In Touch</button
+	>
+	<div class="mt-4">
+		<StackCarousel />
+	</div>
+</section>
+
+<!-- Small Tablet section -->
+<section class="mt-16 hidden flex-col items-center justify-center sm:flex lg:hidden">
+	<div>
+		<h1 class="text-center text-5xl font-bold text-slate-800">
+			Building Modern<br />Websites that Empower<br />
+			<span class="primary-gradient clip-gradient">Business Growth</span>
+		</h1>
+	</div>
+
+	<p class="mt-4 text-center text-xl text-slate-500">
 		We build websites you and your business deserve.<br />No calls. No meetings.
 		<span class="font-bold">Just Results.</span>
 	</p>
 	<button
-		class="text-xl rounded-full px-8 py-4 text-white bg-slate-900 shadow-lg shadow-slate-400 hover:opacity-90"
+		class="mt-4 rounded-full bg-slate-900 px-4 py-2 text-base text-white shadow-lg shadow-slate-400 hover:opacity-90"
+		>Get In Touch</button
+	>
+	<div class="mt-4">
+		<StackCarousel />
+	</div>
+</section>
+
+<!-- Tablet section -->
+<section class="hidden flex-col items-center justify-center lg:flex lg:pt-24 2xl:hidden">
+	<div>
+		<h1 class="text-center text-6xl font-bold text-slate-800">
+			Building Modern<br />Websites that Empower<br />
+			<span class="primary-gradient clip-gradient">Business Growth</span>
+		</h1>
+	</div>
+
+	<p class="mt-4 text-center text-2xl text-slate-500">
+		We build websites you and your business deserve.<br />No calls. No meetings.
+		<span class="font-bold">Just Results.</span>
+	</p>
+	<button
+		class="mt-4 rounded-full bg-slate-900 px-4 py-2 text-lg text-white shadow-lg shadow-slate-400 hover:opacity-90"
+		>Get In Touch</button
+	>
+	<div class="mt-4">
+		<!-- <StackCarousel /> -->
+	</div>
+</section>
+
+<!-- Laptop section -->
+<section class="hidden flex-col items-center justify-center 2xl:flex 2xl:pt-32">
+	<div>
+		<h1 class="text-center text-6xl font-bold text-slate-800">
+			Building Modern Websites<br />that Empower
+			<span class="primary-gradient clip-gradient">Business Growth</span>
+		</h1>
+	</div>
+
+	<p class="mt-12 text-center text-2xl text-slate-500">
+		We build websites you and your business deserve.<br />No calls. No meetings.
+		<span class="font-bold">Just Results.</span>
+	</p>
+	<button
+		class="mt-12 rounded-full bg-slate-900 px-8 py-4 text-xl text-white shadow-lg shadow-slate-400 hover:opacity-90"
 		>Get In Touch</button
 	>
 	<div class="mt-32">

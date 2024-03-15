@@ -72,12 +72,13 @@
 	* {
 		@apply border-border;
 	}
+
 	body {
-		@apply bg-background text-foreground;
+		@apply bg-white text-slate-900;
 	}
 }
 
-@layer utilities {
+@layer components {
 	.primary-gradient {
 		@apply bg-gradient-to-r from-blue-600 to-purple-600;
 	}
@@ -85,4 +86,7 @@
 	.clip-gradient {
 		@apply bg-clip-text text-transparent;
 	}
+}
+
+@layer utilities {
 }
