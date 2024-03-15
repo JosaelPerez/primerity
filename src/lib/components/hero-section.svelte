@@ -20,12 +20,12 @@
 		class="mt-4 rounded-full bg-slate-900 px-4 py-2 text-sm text-white shadow-lg shadow-slate-400 hover:opacity-90"
 		>Get In Touch</button
 	>
-	<div class="mt-4">
+	<div class="mt-8">
 		<StackCarousel />
 	</div>
 </section>
 
-<!-- Small Tablet section -->
+<!-- Small section -->
 <section class="mt-16 hidden flex-col items-center justify-center sm:flex lg:hidden">
 	<div>
 		<h1 class="text-center text-5xl font-bold text-slate-800">
@@ -42,12 +42,12 @@
 		class="mt-4 rounded-full bg-slate-900 px-4 py-2 text-base text-white shadow-lg shadow-slate-400 hover:opacity-90"
 		>Get In Touch</button
 	>
-	<div class="mt-4">
+	<div class="mt-12">
 		<StackCarousel />
 	</div>
 </section>
 
-<!-- Tablet section -->
+<!-- Large section -->
 <section class="hidden flex-col items-center justify-center lg:flex lg:pt-24 2xl:hidden">
 	<div>
 		<h1 class="text-center text-6xl font-bold text-slate-800">
@@ -61,15 +61,15 @@
 		<span class="font-bold">Just Results.</span>
 	</p>
 	<button
-		class="mt-4 rounded-full bg-slate-900 px-4 py-2 text-lg text-white shadow-lg shadow-slate-400 hover:opacity-90"
+		class="mt-12 rounded-full bg-slate-900 px-4 py-2 text-lg text-white shadow-lg shadow-slate-400 hover:opacity-90"
 		>Get In Touch</button
 	>
-	<div class="mt-4">
-		<!-- <StackCarousel /> -->
+	<div class="mt-16">
+		<StackCarousel />
 	</div>
 </section>
 
-<!-- Laptop section -->
+<!-- 2XL section -->
 <section class="hidden flex-col items-center justify-center 2xl:flex 2xl:pt-32">
 	<div>
 		<h1 class="text-center text-6xl font-bold text-slate-800">
