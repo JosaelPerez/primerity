@@ -42,7 +42,7 @@
 			delay: 3500
 		})
 	]}
-	class="lg:hidden"
+	class="lg:hidden {$$props.class}"
 >
 	<Carousel.Content>
 		{#each logos as logo}
@@ -72,7 +72,7 @@
 			delay: 3500
 		})
 	]}
-	class="hidden lg:flex 2xl:hidden"
+	class="hidden lg:flex 2xl:hidden  {$$props.class}"
 >
 	<Carousel.Content>
 		{#each logos as logo}
@@ -92,7 +92,7 @@
 </Carousel.Root>
 
 <!-- Large version -->
-<div class="hidden items-center justify-evenly gap-12 2xl:flex">
+<div class="hidden items-center justify-evenly gap-12 2xl:flex {$$props.class}">
 	<img src="nodejs.svg" alt="NodeJS" width="100" />
 	<img src="svelte.svg" alt="Svelte" width="170" />
 	<img src="tailwind.svg" alt="Tailwind" width="220" />

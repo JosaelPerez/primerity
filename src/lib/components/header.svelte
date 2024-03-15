@@ -19,29 +19,54 @@
 	];
 </script>
 
-<header class="flex h-16 items-center px-8 shadow-sm sm:h-20 sm:px-16 xl:px-32 2xl:px-80">
-	<h1 class="text-base font-bold sm:text-xl lg:text-2xl">Primerity</h1>
+<!-- Compact header -->
+<header class="flex h-16 w-full items-center px-4 shadow-sm sm:hidden {$$props.class}">
+	<nav class="flex h-full w-full items-center justify-end">
+		<img src="menu.svg" alt="Menu" width="24px" height="24px" class="m-3 h-6 w-6" />
+	</nav>
+</header>
 
-	<nav class="flex h-full flex-grow items-center">
-		<div class="hidden w-full items-center md:flex">
-			<ul class="flex h-full w-full items-center justify-center md:gap-6 lg:gap-12">
-				{#each refs as ref}
-					<li
-						class="hover:primary-gradient hover:clip-gradient text-sm hover:font-bold md:text-base"
-					>
-						<a href={ref.href}>{ref.title}</a>
-					</li>
-				{/each}
-			</ul>
+<!-- Small header -->
+<header class=" hidden h-24 w-full items-center px-4 shadow-sm sm:flex lg:hidden {$$props.class}">
+	<nav class="flex h-full w-full items-center justify-end">
+		<img src="menu.svg" alt="Menu" width="36px" height="36px" class="m-2 h-9 w-9" />
+	</nav>
+</header>
 
-			<button
-				class="text-nowrap rounded-full border-2 bg-slate-900 px-4 py-2 text-sm text-white hover:opacity-90"
-				>Get In Touch</button
-			>
-		</div>
+<!-- Large header -->
+<header class=" hidden h-24 w-full items-center px-4 shadow-sm lg:flex 2xl:hidden {$$props.class}">
+	<nav class="flex h-full w-full items-center justify-between">
+		<h1 class="text-xl font-bold text-slate-800">Primerity</h1>
+		<ul class="flex h-full w-full items-center justify-center gap-12">
+			{#each refs as ref}
+				<li class="hover:primary-gradient hover:clip-gradient text-sm hover:font-bold md:text-base">
+					<a href={ref.href}>{ref.title}</a>
+				</li>
+			{/each}
+		</ul>
 
-		<div class="flex h-full flex-grow items-center justify-end text-sm sm:text-base md:hidden">
-			Menu
-		</div>
+		<button
+			class="text-nowrap rounded-full bg-slate-900 px-4 py-2 text-sm text-white hover:opacity-90"
+			>Get In Touch</button
+		>
+	</nav>
+</header>
+
+<!-- Extra Large header -->
+<header class=" hidden h-24 w-full items-center px-56 shadow-sm 2xl:flex {$$props.class}">
+	<nav class="flex h-full w-full items-center justify-between">
+		<h1 class="text-xl font-bold text-slate-800">Primerity</h1>
+		<ul class="flex h-full w-full items-center justify-center gap-12">
+			{#each refs as ref}
+				<li class="hover:primary-gradient hover:clip-gradient text-sm hover:font-bold md:text-base">
+					<a href={ref.href}>{ref.title}</a>
+				</li>
+			{/each}
+		</ul>
+
+		<button
+			class="text-nowrap rounded-full bg-slate-900 px-4 py-2 text-sm text-white hover:opacity-90"
+			>Get In Touch</button
+		>
 	</nav>
 </header>

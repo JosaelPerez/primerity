@@ -20,7 +20,7 @@
 		class="mt-4 rounded-full bg-slate-900 px-4 py-2 text-sm text-white shadow-lg shadow-slate-400 hover:opacity-90"
 		>Get In Touch</button
 	>
-	<div class="mt-8">
+	<div class="my-8">
 		<StackCarousel />
 	</div>
 </section>
@@ -42,7 +42,7 @@
 		class="mt-4 rounded-full bg-slate-900 px-4 py-2 text-base text-white shadow-lg shadow-slate-400 hover:opacity-90"
 		>Get In Touch</button
 	>
-	<div class="mt-12">
+	<div class="my-12">
 		<StackCarousel />
 	</div>
 </section>
@@ -64,13 +64,15 @@
 		class="mt-12 rounded-full bg-slate-900 px-4 py-2 text-lg text-white shadow-lg shadow-slate-400 hover:opacity-90"
 		>Get In Touch</button
 	>
-	<div class="mt-16">
+	<div class="my-16">
 		<StackCarousel />
 	</div>
 </section>
 
 <!-- 2XL section -->
-<section class="hidden flex-col items-center justify-center 2xl:flex 2xl:pt-32">
+<section
+	class="m-auto hidden h-full w-full flex-col items-center justify-center border border-red-400 p-0 py-32 2xl:flex"
+>
 	<div>
 		<h1 class="text-center text-6xl font-bold text-slate-800">
 			Building Modern Websites<br />that Empower
@@ -86,7 +88,5 @@
 		class="mt-12 rounded-full bg-slate-900 px-8 py-4 text-xl text-white shadow-lg shadow-slate-400 hover:opacity-90"
 		>Get In Touch</button
 	>
-	<div class="mt-32">
-		<StackCarousel />
-	</div>
+	<StackCarousel class="my-32" />
 </section>
