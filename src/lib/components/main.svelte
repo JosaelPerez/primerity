@@ -5,7 +5,7 @@
 
 <!-- Small layout -->
 <main class=" mx-4 flex flex-col items-center justify-start">
-	<!-- <HeroSection /> -->
+	<HeroSection />
 	<!-- <ServicesSection /> -->
 	<!-- <PricingSection /> -->
 	<!-- <FAQSection /> -->
