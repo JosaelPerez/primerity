@@ -25,9 +25,9 @@
 	];
 </script>
 
-<!-- Mobile version -->
+<!-- Compact version -->
 <section
-	class="flex max-w-full flex-col items-center justify-start py-4 md:hidden"
+	class="flex max-w-full flex-col items-center justify-start py-8 md:hidden"
 	id="services-section"
 >
 	<h2 class="text-center text-2xl font-bold text-slate-800">
@@ -64,16 +64,16 @@
 	</Carousel.Root>
 </section>
 
-<!-- Medium version -->
+<!-- Small version -->
 <section
-	class=" hidden max-w-full flex-col items-center justify-start md:flex lg:hidden"
+	class=" hidden max-w-full flex-col items-center justify-start py-8 sm:flex lg:hidden"
 	id="services-section"
 >
 	<h2 class="text-center text-4xl font-bold text-slate-800">
 		Everything you need to deploy your website!
 	</h2>
-	<p class="mt-4 px-8 text-center text-2xl text-slate-500">
-		We handle everything from design to deployment to get your website shipped and ready to go!
+	<p class="mt-4 px-8 text-center text-xl text-slate-500">
+		We handle everything from design to deployment to get your<br />website shipped and ready to go!
 	</p>
 
 	<Carousel.Root
@@ -86,7 +86,7 @@
 				delay: 3500
 			})
 		]}
-		class="mt-8 w-full"
+		class="mt-12 w-full"
 	>
 		<Carousel.Content>
 			{#each services as service}
@@ -105,14 +105,14 @@
 
 <!-- Large version -->
 <section
-	class=" hidden max-w-full flex-col items-center justify-start lg:flex 2xl:hidden"
+	class="hidden max-w-full flex-col items-center justify-start pb-24 lg:flex 2xl:hidden"
 	id="services-section"
 >
-	<h2 class="text-center text-3xl font-bold text-slate-800">
+	<h2 class="text-center text-4xl font-bold text-slate-800">
 		Everything you need to deploy your website!
 	</h2>
-	<p class="mt-4 px-8 text-center text-xl text-slate-500">
-		We handle everything from design to deployment to get your website shipped and ready to go!
+	<p class="mt-8 px-8 text-center text-2xl text-slate-500">
+		We handle everything from design to deployment to get your website<br />shipped and ready to go!
 	</p>
 
 	<Carousel.Root
@@ -125,15 +125,15 @@
 				delay: 3500
 			})
 		]}
-		class="mt-8 w-full"
+		class="mx-32 mt-16"
 	>
 		<Carousel.Content>
 			{#each services as service}
 				<Carousel.Item class="basis-1/2">
 					<div class="p-1">
 						<div class="h-64 rounded-lg border border-slate-200 px-8 py-8 shadow-md">
-							<h3 class="text-md font-bold text-slate-800">{service.title}</h3>
-							<p class="mt-4 text-sm text-slate-800">{service.description}</p>
+							<h3 class="text-lg font-bold text-slate-800">{service.title}</h3>
+							<p class="mt-4 text-base text-slate-800">{service.description}</p>
 						</div>
 					</div>
 				</Carousel.Item>
@@ -144,7 +144,7 @@
 
 <!-- 2XL version -->
 <section
-	class=" hidden max-w-full flex-col items-center justify-start 2xl:flex"
+	class=" hidden max-w-full flex-col items-center justify-start py-32 2xl:flex"
 	id="services-section"
 >
 	<h2 class="text-center text-4xl font-bold text-slate-800">
@@ -164,15 +164,15 @@
 				delay: 3500
 			})
 		]}
-		class="mt-8 w-full"
+		class="mx-56 mt-16"
 	>
 		<Carousel.Content>
 			{#each services as service}
 				<Carousel.Item class="basis-1/3">
 					<div class="p-1">
 						<div class="h-64 rounded-lg border border-slate-200 px-8 py-8 shadow-md">
-							<h3 class="text-md font-bold text-slate-800">{service.title}</h3>
-							<p class="mt-4 text-sm text-slate-800">{service.description}</p>
+							<h3 class="text-xl font-bold text-slate-800">{service.title}</h3>
+							<p class="mt-4 text-base text-slate-800">{service.description}</p>
 						</div>
 					</div>
 				</Carousel.Item>

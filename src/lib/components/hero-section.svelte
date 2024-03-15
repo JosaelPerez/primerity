@@ -3,7 +3,7 @@
 </script>
 
 <!-- Compact section -->
-<section class="flex flex-col items-center justify-center border pt-8 sm:hidden">
+<section class="flex flex-col items-center justify-center py-8 sm:hidden">
 	<div>
 		<h1 class="text-center text-2xl font-bold text-slate-800">
 			Building Modern<br />Websites that Empower<br />
@@ -20,11 +20,11 @@
 		class="mt-4 rounded-full bg-slate-900 px-4 py-2 text-sm text-white shadow-lg shadow-slate-400 hover:opacity-90"
 		>Get In Touch</button
 	>
-	<StackCarousel class="my-8" />
+	<StackCarousel class="mt-8" />
 </section>
 
 <!-- Small section -->
-<section class="hidden flex-col items-center justify-center pt-16 sm:flex lg:hidden">
+<section class="hidden flex-col items-center justify-center py-8 sm:flex lg:hidden">
 	<div>
 		<h1 class="text-center text-5xl font-bold text-slate-800">
 			Building Modern<br />Websites that Empower<br />
@@ -40,11 +40,11 @@
 		class="mt-4 rounded-full bg-slate-900 px-4 py-2 text-base text-white shadow-lg shadow-slate-400 hover:opacity-90"
 		>Get In Touch</button
 	>
-	<StackCarousel class="my-12" />
+	<StackCarousel class="mt-12" />
 </section>
 
 <!-- Large section -->
-<section class="hidden flex-col items-center justify-center pt-24 lg:flex 2xl:hidden">
+<section class="hidden flex-col items-center justify-center py-24 lg:flex 2xl:hidden">
 	<div>
 		<h1 class="text-center text-6xl font-bold text-slate-800">
 			Building Modern<br />Websites that Empower<br />
@@ -60,11 +60,11 @@
 		class="mt-12 rounded-full bg-slate-900 px-4 py-2 text-lg text-white shadow-lg shadow-slate-400 hover:opacity-90"
 		>Get In Touch</button
 	>
-	<StackCarousel class="my-16" />
+	<StackCarousel class="mt-16" />
 </section>
 
 <!-- 2XL section -->
-<section class="hidden flex-col items-center justify-center pt-32 2xl:flex">
+<section class="hidden flex-col items-center justify-center py-32 2xl:flex">
 	<div>
 		<h1 class="text-center text-6xl font-bold text-slate-800">
 			Building Modern Websites<br />that Empower
@@ -80,5 +80,5 @@
 		class="mt-12 rounded-full bg-slate-900 px-8 py-4 text-xl text-white shadow-lg shadow-slate-400 hover:opacity-90"
 		>Get In Touch</button
 	>
-	<StackCarousel class="my-32" />
+	<StackCarousel class="mt-32" />
 </section>
