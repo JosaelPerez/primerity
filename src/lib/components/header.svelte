@@ -39,7 +39,7 @@
 		<h1 class="text-xl font-bold text-slate-800">Primerity</h1>
 		<ul class="flex h-full w-full items-center justify-center gap-12">
 			{#each refs as ref}
-				<li class="hover:primary-gradient hover:clip-gradient text-sm hover:font-bold md:text-base">
+				<li class="hover:primary-gradient hover:clip-gradient text-base hover:font-bold">
 					<a href={ref.href}>{ref.title}</a>
 				</li>
 			{/each}
@@ -58,7 +58,7 @@
 		<h1 class="text-xl font-bold text-slate-800">Primerity</h1>
 		<ul class="flex h-full w-full items-center justify-center gap-12">
 			{#each refs as ref}
-				<li class="hover:primary-gradient hover:clip-gradient text-sm hover:font-bold md:text-base">
+				<li class="hover:primary-gradient hover:clip-gradient text-base hover:font-bold">
 					<a href={ref.href}>{ref.title}</a>
 				</li>
 			{/each}
