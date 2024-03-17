@@ -62,10 +62,10 @@
 	<Accordion.Root class="mt-4 w-full sm:max-w-[70%]" multiple>
 		{#each faq as item}
 			<Accordion.Item value={item.id}>
-				<Accordion.Trigger class="text-primary text-justify text-sm sm:text-base lg:text-lg"
+				<Accordion.Trigger class="text-primary text-justify text-base lg:text-lg"
 					>{item.question}</Accordion.Trigger
 				>
-				<Accordion.Content class=" text-sm text-slate-500 sm:text-base lg:text-lg"
+				<Accordion.Content class=" text-base text-slate-500 lg:text-lg"
 					>{item.answer}</Accordion.Content
 				>
 			</Accordion.Item>
