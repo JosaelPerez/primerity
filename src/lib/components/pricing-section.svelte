@@ -60,7 +60,7 @@
 		</span>
 	</p>
 
-	<Tabs.Root value="design" class="mt-8 flex w-full flex-col items-center gap-2">
+	<Tabs.Root value="design" class="mt-8 flex w-full flex-col items-center gap-2 sm:hidden">
 		<Tabs.List>
 			<Tabs.Trigger value="design">Design</Tabs.Trigger>
 			<Tabs.Trigger value="development">Development</Tabs.Trigger>
