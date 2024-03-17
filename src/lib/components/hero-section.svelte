@@ -3,9 +3,7 @@
 </script>
 
 <section class="flex flex-col items-center justify-start">
-	<h1
-		class="xs:text-3xl text-center text-2xl font-bold text-slate-800 sm:text-5xl lg:text-6xl 2xl:text-7xl"
-	>
+	<h1 class="text-primary text-center font-bold">
 		<span class="xl:hidden">
 			<span class="text-nowrap">Building Modern</span><br />
 			<span class="text-nowrap">Websites that Empower</span><br />
@@ -17,7 +15,7 @@
 		</span>
 	</h1>
 
-	<p class="mt-4 text-center text-base text-slate-500 sm:text-xl lg:mt-8 lg:text-3xl">
+	<p class="mt-4 text-center text-slate-500 lg:mt-8">
 		<span class="sm:hidden">
 			We build websites you and<br />your business deserve.<br />No calls. No meetings.
 			<span class="font-bold">Just Results.</span>
