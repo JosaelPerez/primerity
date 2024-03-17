@@ -1,6 +1,7 @@
 <script>
 	import PricingCard from './pricing-card.svelte';
 	import * as Tabs from '$lib/components/ui/tabs';
+
 	let development = {
 		title: 'Website Development',
 		subtitle: 'up to 5 sections',
@@ -20,6 +21,7 @@
 		],
 		cta: 'Buy Now'
 	};
+
 	let designDevelopment = {
 		title: 'Design + Development',
 		subtitle: 'up to 5 sections',
@@ -41,16 +43,21 @@
 	};
 </script>
 
-<!-- Compact version -->
-<section id="pricing-section" class="flex w-full flex-col items-center justify-start sm:hidden">
-	<h2 class="text-center text-2xl font-bold text-slate-800">
+<section id="pricing-section" class="flex w-full flex-col items-center justify-start">
+	<h2 class="text-primary text-center font-bold">
 		Flexible prices that make everyone <span class="primary-gradient clip-gradient"
 			>feel welcome!
 		</span>
 	</h2>
 
-	<p class="mt-4 text-center text-sm text-slate-500">
-		Just choose the option that makes the most<br />sense for you and your business
+	<p class="mt-4 text-center text-slate-500 sm:px-8">
+		<span class="sm:hidden">
+			Just choose the option that makes the most sense for you and your business
+		</span>
+
+		<span class="hidden sm:max-lg:inline">
+			Just choose the option that makes the most sense for you and your business
+		</span>
 	</p>
 
 	<Tabs.Root value="design" class="mt-8 flex w-full flex-col items-center gap-2">
@@ -65,60 +72,8 @@
 			<PricingCard {...designDevelopment}></PricingCard>
 		</Tabs.Content>
 	</Tabs.Root>
-</section>
 
-<!-- Small version -->
-<section
-	id="pricing-section"
-	class="hidden w-full flex-col items-center justify-start sm:flex lg:hidden"
->
-	<h2 class="text-center text-4xl font-bold text-slate-800">
-		Flexible prices that make everyone <span class="primary-gradient clip-gradient"
-			>feel welcome!
-		</span>
-	</h2>
-	<p class="mt-4 px-8 text-center text-xl text-slate-500">
-		Just choose the option that makes the most sense for you and your business
-	</p>
-
-	<div class="mt-12 flex gap-4">
-		<PricingCard {...development}></PricingCard>
-		<PricingCard {...designDevelopment}></PricingCard>
-	</div>
-</section>
-
-<!-- Large version -->
-<section
-	id="pricing-section"
-	class="hidden w-full flex-col items-center justify-start lg:flex 2xl:hidden"
->
-	<h2 class="text-center text-4xl font-bold text-slate-800">
-		Flexible prices that make everyone <span class="primary-gradient clip-gradient"
-			>feel welcome!
-		</span>
-	</h2>
-	<p class="mt-4 px-8 text-center text-xl text-slate-500">
-		Just choose the option that makes the most sense for you and your business
-	</p>
-
-	<div class="mt-8 flex gap-4">
-		<PricingCard {...development}></PricingCard>
-		<PricingCard {...designDevelopment}></PricingCard>
-	</div>
-</section>
-
-<!-- 2XL version -->
-<section id="pricing-section" class="hidden w-full flex-col items-center justify-start 2xl:flex">
-	<h2 class="text-center text-5xl font-bold text-slate-800">
-		Flexible prices that make everyone <span class="primary-gradient clip-gradient"
-			>feel welcome!
-		</span>
-	</h2>
-	<p class="mt-4 px-8 text-center text-2xl text-slate-500">
-		Just choose the option that makes the most sense for you and your business
-	</p>
-
-	<div class="mt-16 flex gap-8">
+	<div class="mt-12 hidden gap-4 sm:flex lg:gap-4 2xl:mt-16 2xl:gap-8">
 		<PricingCard {...development}></PricingCard>
 		<PricingCard {...designDevelopment}></PricingCard>
 	</div>
