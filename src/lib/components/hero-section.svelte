@@ -9,7 +9,7 @@
 			<span class="text-nowrap">Websites that Empower</span><br />
 			<span class="primary-gradient clip-gradient text-nowrap">Business Growth</span>
 		</span>
-		<span class="hidden xl:block">
+		<span class="hidden xl:inline">
 			Building Modern Websites<br />that Empower
 			<span class="primary-gradient clip-gradient">Business Growth</span>
 		</span>
@@ -20,7 +20,7 @@
 			We build websites you and<br />your business deserve.<br />No calls. No meetings.
 			<span class="font-bold">Just Results.</span>
 		</span>
-		<span class="hidden sm:block">
+		<span class="hidden sm:inline">
 			We build websites you and your business deserve.<br />No calls. No meetings.
 			<span class="font-bold">Just Results.</span>
 		</span>
