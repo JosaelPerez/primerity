@@ -51,7 +51,8 @@
 	<Carousel.Root
 		opts={{
 			align: 'start',
-			loop: true
+			loop: true,
+			watchDrag: false
 		}}
 		plugins={[
 			Autoplay({
