@@ -2,6 +2,7 @@
 	import HeroSection from './hero-section.svelte';
 	import ServicesSection from './services-section.svelte';
 	import PricingSection from './pricing-section.svelte';
+	import FAQSection from './faq-section.svelte';
 </script>
 
 <main
@@ -10,5 +11,5 @@
 	<HeroSection />
 	<ServicesSection />
 	<PricingSection />
-	<!-- <FAQSection /> -->
+	<FAQSection />
 </main>

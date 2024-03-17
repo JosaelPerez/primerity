@@ -1,5 +1,6 @@
 <script>
 	import * as Accordion from '$lib/components/ui/accordion';
+
 	const faq = [
 		{
 			id: 'item-1',
@@ -52,17 +53,21 @@
 </script>
 
 <!-- FAQs -->
-<section class="justify-center flex flex-col items-center py-16">
-	<h2 class="text-3xl font-bold text-slate-800">Frequenly asked questions</h2>
-	<p class="text-xl text-slate-500 mt-4">
+<section class="flex flex-col items-center justify-center">
+	<h2 class="text-primary font-bold">Frequenly asked questions</h2>
+	<p class="mt-4 text-center text-slate-500 sm:max-w-[70%]">
 		Can’t find the answer you’re looking for? Reach out to us and we will get in touch with you
 	</p>
 
-	<Accordion.Root class="w-full sm:max-w-[70%] pt-12" multiple>
+	<Accordion.Root class="mt-4 w-full sm:max-w-[70%]" multiple>
 		{#each faq as item}
 			<Accordion.Item value={item.id}>
-				<Accordion.Trigger class="text-slate-800 text-md">{item.question}</Accordion.Trigger>
-				<Accordion.Content class="text-slate-500 text-md">{item.answer}</Accordion.Content>
+				<Accordion.Trigger class="text-primary text-justify text-sm sm:text-base lg:text-lg"
+					>{item.question}</Accordion.Trigger
+				>
+				<Accordion.Content class=" text-sm text-slate-500 sm:text-base lg:text-lg"
+					>{item.answer}</Accordion.Content
+				>
 			</Accordion.Item>
 		{/each}
 	</Accordion.Root>

@@ -27,7 +27,7 @@
 		</li>
 	{/if}
 
-	<li class="text-base text-slate-600 sm:mt-4 2xl:mt-6 2xl:text-lg">{description}</li>
+	<li class="text-base text-slate-600 sm:mt-4 lg:mt-6 lg:text-lg">{description}</li>
 
 	<div class="mt-4 flex flex-grow flex-col gap-2">
 		{#each features as feature}
