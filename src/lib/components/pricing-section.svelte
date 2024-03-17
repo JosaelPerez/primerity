@@ -50,7 +50,7 @@
 		</span>
 	</h2>
 
-	<p class="mt-4 text-center text-slate-500 sm:px-8">
+	<p class="text-secondary mt-4 text-center sm:px-8">
 		<span class="sm:hidden">
 			Just choose the option that makes the most sense for you and your business
 		</span>

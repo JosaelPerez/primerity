@@ -55,7 +55,7 @@
 <!-- FAQs -->
 <section class="flex flex-col items-center justify-center">
 	<h2 class="text-primary font-bold">Frequenly asked questions</h2>
-	<p class="mt-4 text-center text-slate-500 sm:max-w-[70%]">
+	<p class="text-secondary mt-4 text-center sm:max-w-[70%]">
 		Can’t find the answer you’re looking for? Reach out to us and we will get in touch with you
 	</p>
 
@@ -65,7 +65,7 @@
 				<Accordion.Trigger class="text-primary text-justify text-base lg:text-lg"
 					>{item.question}</Accordion.Trigger
 				>
-				<Accordion.Content class=" text-base text-slate-500 lg:text-lg"
+				<Accordion.Content class=" text-secondary text-base lg:text-lg"
 					>{item.answer}</Accordion.Content
 				>
 			</Accordion.Item>

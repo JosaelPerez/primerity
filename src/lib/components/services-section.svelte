@@ -66,7 +66,7 @@
 					<div class="p-1">
 						<div class="h-64 rounded-lg border border-slate-200 px-8 py-8 shadow-md">
 							<h3 class="text-primary font-bold">{service.title}</h3>
-							<p class="text-primary mt-4 lg:text-base">{service.description}</p>
+							<p class="text-secondary mt-4 lg:text-base">{service.description}</p>
 						</div>
 					</div>
 				</Carousel.Item>

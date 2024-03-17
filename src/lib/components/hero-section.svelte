@@ -15,7 +15,7 @@
 		</span>
 	</h1>
 
-	<p class="mt-4 text-center text-slate-500 lg:mt-8">
+	<p class="text-secondary mt-4 text-center lg:mt-8">
 		<span class="sm:hidden">
 			We build websites you and<br />your business deserve.<br />No calls. No meetings.
 			<span class="font-bold">Just Results.</span>
@@ -27,7 +27,7 @@
 	</p>
 
 	<button
-		class="mt-4 rounded-full bg-slate-900 px-4 py-2 text-base text-white shadow-lg shadow-slate-400 hover:opacity-90 lg:mt-12 lg:text-lg 2xl:px-8 2xl:py-4 2xl:text-xl"
+		class="bg-primary mt-4 rounded-full px-4 py-2 text-base text-white shadow-lg shadow-slate-400 hover:opacity-90 lg:mt-12 lg:text-lg 2xl:px-8 2xl:py-4 2xl:text-xl"
 		>Get In Touch</button
 	>
 

@@ -18,7 +18,7 @@
 	<li class="primary-gradient clip-gradient text-xl font-bold sm:text-2xl 2xl:text-3xl">{title}</li>
 
 	{#if subtitle}
-		<li class="text-base text-slate-500 sm:text-lg 2xl:text-xl">{subtitle}</li>
+		<li class="text-secondary text-base sm:text-lg 2xl:text-xl">{subtitle}</li>
 	{/if}
 
 	{#if price}
@@ -27,11 +27,11 @@
 		</li>
 	{/if}
 
-	<li class="text-base text-slate-600 sm:mt-4 lg:mt-6 lg:text-lg">{description}</li>
+	<li class="text-secondary text-base sm:mt-4 lg:mt-6 lg:text-lg">{description}</li>
 
 	<div class="mt-4 flex flex-grow flex-col gap-2">
 		{#each features as feature}
-			<li class="text-primary text-base lg:text-lg">
+			<li class="text-secondary text-base lg:text-lg">
 				<img src="check.svg" alt="check" class="mr-2 inline w-4" />{feature}
 			</li>
 		{/each}
@@ -40,7 +40,7 @@
 	<button class="primary-gradient mt-4 w-full rounded-md p-[1px]">
 		<div class="flex h-full w-full items-center justify-center rounded-md bg-white">
 			<span
-				class="primary-gradient clip-gradient flex w-full items-center justify-center rounded bg-white p-2 text-sm font-bold 2xl:text-lg"
+				class="primary-gradient clip-gradient flex w-full items-center justify-center rounded bg-white p-2 text-base font-bold 2xl:text-lg"
 				>{cta}</span
 			>
 		</div>
