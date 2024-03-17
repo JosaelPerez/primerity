@@ -86,7 +86,7 @@
 	}
 
 	h3 {
-		@apply text-lg lg:text-lg;
+		@apply text-lg lg:text-xl;
 	}
 
 	p {
