@@ -36,8 +36,7 @@
 			We handle everything from design to deployment to get your website shipped and ready to go!
 		</span>
 		<span class="hidden sm:max-lg:inline">
-			We handle everything from design to deployment to get your<br />
-			website shipped and ready to go!
+			We handle everything from design to deployment to get your website shipped and ready to go!
 		</span>
 		<span class="hidden lg:max-2xl:inline">
 			We handle everything from design to deployment to get your website<br />
@@ -59,15 +58,17 @@
 				delay: 3500
 			})
 		]}
-		class="mt-8 w-full lg:mx-32 lg:mt-16 2xl:mx-56 "
+		class="mt-8 w-full lg:mx-32 lg:mt-16 lg:max-w-[70%] 2xl:mx-56 "
 	>
 		<Carousel.Content>
 			{#each services as service}
-				<Carousel.Item class="sm:basis-1/2 lg:basis-1/2 2xl:basis-1/3">
+				<Carousel.Item class="md:basis-1/2 lg:basis-1/2 2xl:basis-1/3">
 					<div class="p-1">
-						<div class="h-64 rounded-lg border border-slate-200 px-8 py-8 shadow-md">
+						<div
+							class="h-80 rounded-lg border border-slate-200 px-8 py-8 shadow-md md:h-96 lg:h-80 xl:h-64"
+						>
 							<h3 class="text-primary font-bold">{service.title}</h3>
-							<p class="text-secondary mt-4 lg:text-base">{service.description}</p>
+							<p class="text-secondary mt-4 text-justify lg:text-base">{service.description}</p>
 						</div>
 					</div>
 				</Carousel.Item>
