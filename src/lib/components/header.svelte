@@ -64,9 +64,6 @@
 			{/each}
 		</ul>
 
-		<button
-			class="text-nowrap rounded-full bg-slate-900 px-4 py-2 text-sm text-white hover:opacity-90"
-			>Get In Touch</button
-		>
+		<button class="cta-button text-sm">Get In Touch</button>
 	</nav>
 </header>

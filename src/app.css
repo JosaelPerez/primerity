@@ -102,4 +102,8 @@
 	.clip-gradient {
 		@apply bg-clip-text text-transparent;
 	}
+
+	.cta-button {
+		@apply text-nowrap rounded-full bg-slate-900 px-4 py-2 text-white  hover:opacity-90;
+	}
 }
